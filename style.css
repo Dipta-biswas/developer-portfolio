@@ -13,8 +13,8 @@ section{
 }
 .top-banner{
     background-image: url(./images/top-banner.png);
-    /* background-size: cover; */
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 .btn{
     border: none;
@@ -42,4 +42,22 @@ section{
 }
 .img img{
     width:75%;
+}
+/* mid banner css */
+.mid-banner{
+    display: flex;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.mid-img{
+    width: 50%;
+    /* padding-left: 3%; */
+}
+.mid-left{
+    width: 50%;
+    padding-right: 5%;
+}
+.mid-img img{
+    width: 75%;
 }
