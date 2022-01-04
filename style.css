@@ -5,6 +5,7 @@ body{
 }
 h1{
     font-size: 50px;
+    color:cyan;
 }
 h2{
     font-size: 40px;
@@ -31,7 +32,10 @@ span{
     
 }
 
+.btn:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.7),rgba(0, 255, 255, 0.7));
     
+}
 
 .main{
     width: 50%;
@@ -86,12 +90,23 @@ span{
     border-left:7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+    transform: translate 400ms;
+}
+#baby-stack:hover{
+    transform: scale(1.05);
 }
 #full-stack{
     border-image: linear-gradient(orange,orangered);
     border-image-slice: 1;
     border-left: 7px solid;
+    transform: translate 400ms;
+}
+#full-stack:hover{
+    transform: scale(1.07);
 }
 .foot{
     text-align: center;
+    height: 2rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.8),rgba(0, 255, 255, 0.8));
+    color: white;
 }
