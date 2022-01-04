@@ -1,17 +1,19 @@
 body{
      font-family: 'Poppins', sans-serif;
      margin: 0;
+     box-sizing: border-box;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
     color: orange;  
 }
-section{
-    display: flex;
-}
 .top-banner{
+    display: flex;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 150px;
@@ -49,6 +51,7 @@ section{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom:150px;
 }
 .mid-img{
     width: 50%;
@@ -60,4 +63,35 @@ section{
 }
 .mid-img img{
     width: 75%;
+}
+
+/* last section */
+.card-container{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.card{
+    width: 40%;
+    box-shadow: 5px 5px 1rem rgba(0, 0, 0, .4);
+    margin: 0 5% 0;
+    padding-left: 1rem;
+}
+.h-orange{
+    color: orange;
+}
+#baby-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-image: linear-gradient(orange,orangered);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+.foot{
+    text-align: center;
 }
